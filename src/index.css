@@ -5,8 +5,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: url("/img/IMG_3409.JPG");
-  background-size: 100%;
-  background-position: cover;
+  background-size: cover;
+  background-position: center;
   min-height: 100%;
 }
 
