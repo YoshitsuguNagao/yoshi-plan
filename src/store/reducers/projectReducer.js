@@ -8,12 +8,14 @@ const initState ={
 const projectReducer = (state = initState, action) => {
   switch(action.type) {
     case 'CREATE_PROJECT':
-      console.log('action.project', action.project);
-      break;
+      console.log('CREATE PROJECT', action.project);
+      return state;
+    case 'CREATE_PROJECT_ERROR':
+      console.log('CREATE PROJECT ERROR', action.err);
+      return state;
     default:
-      break;
+      return state;
   }
-  return state
 }
 
 export default projectReducer
